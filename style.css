@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white(249, 248, 248);
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5rem;
+    text-align: center;  
+    color: #000;
+  
+}
+
+/*Celular*/
+@media (max-width:767px){
+ 
+}
+
+/*Tableta*/
+@media (min-width:768px){
+    
+}
+
+header{
+    background-color: white;
+    box-shadow: 1px 1px 0px 0px #000;
+    position: fixed;
+    width: auto;
+    left: 0;
+    right: 0;  
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/*
+ul#menu{
+    text-decoration: none;
+    font-style: italic;   
+}
+*/
+ul{
+    list-style: none;
+    display: inline-block; 
+    
+}
+
+ul li{
+    display: inline-block; 
+    list-style: none; 
+    font-style: italic;
+    margin: 0;
+    padding: 0.5em .5em;
+   
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.menu-item:hover, 
+li.menu a.active,
+
+a.btn:hover {
+    background-color: rgb(185, 4, 106); 
+    transition: background-color 0.8;
+    padding: .6rem ;
+    border-radius: 15px;
+   
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.imglogo{
+    margin-right: 5%;
+    width: 125px;
+    padding: 0.5; 
+ }
+
+.imgfoto{
+    margin: 100px 0px 0px 0px; 
+    border-radius: 50%;
+    width: 150px;
+    border: 3px;
+    border-style: solid;   
+     
+}
+
+#inicio{
+    margin: 0px 20px 25px 20px; 
+    align-content: center;
+    padding: 1.5em;    
+ }
+
+/* comienza en baner FOTOS */
+
+.slider-frame {
+	width: 250px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+    border-style: solid;
+    border-color: grey;
+  
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+
+}
+
+.slider-frame img {
+	width: 100%;
+ 
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	13% {margin-left: 0;}
+	
+	16.6% {margin-left: -100%;}
+	29.6% {margin-left: -100%;}
+	
+	33.2% {margin-left: -200%;}
+	46.2% {margin-left: -200%;}
+	
+	49.8% {margin-left: -300%;}
+	62.8% {margin-left: -300%;}
+
+    66.4% {margin-left: -400%;}
+	79.4% {margin-left: -400%;}
+	
+	83% {margin-left: -500%;}
+	100% {margin-left: -500%;}
+}
+
+
+
+#contacto{
+   background-color: rgb(220, 102, 169); 
+   border-radius: 15px;
+   text-decoration: none;
+   padding: 10PX;
+   margin: 20px 20px 55px 20px;   
+   align-items: center;   
+}
+
+.btnrrss {
+    font-style: italic;
+    font-size: .6em; 
+    padding: 10px ;
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    text-decoration: none;
+    border-radius: 15px;
+    border-style: solid;
+     
+}
+
+article {
+    box-sizing: border-box;
+    display: flex;
+    padding: .5em;
+}
+
+.DescargarCV{
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    border-radius: 15px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: .6em;   
+    padding: 10px ;
+}
+
+.MiInstagram{
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    border-radius: 15px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: .6em;   
+    padding: 10px ;
+}
+
+footer {
+    display: flexbox;
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 2;
+    padding: 10px;
+}
